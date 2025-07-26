@@ -1,0 +1,102 @@
+/* === Global === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #003566;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* === Navbar === */
+.navbar-custom {
+  background-color: #005F57;
+  padding: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: white !important;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+  text-decoration: underline;
+}
+
+/* === Blockquote === */
+.blockquote {
+  background-color: #f1f1f1;
+  font-style: italic;
+}
+
+/* === Visi Misi Section === */
+.judul {
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.isi-visi {
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+.isi-misi {
+  padding-left: 20px;
+}
+
+.isi-misi li {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.btn-lihat {
+  background-color: #007f5f; /* Hijau tua WBI */
+  color: white;
+  padding: 10px 24px;
+  font-weight: 600;
+  border-radius: 50px; /* buat oval */
+  text-decoration: none;
+
+}
+.btn-lihat:hover {
+  background-color: #146c43;
+}
+
+.selengkapnya-link {
+  color: #6c757d; /* warna awal (text-muted) */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.selengkapnya-link:hover {
+  color: #005F57; /* warna saat hover */
+  text-decoration: underline;
+}
+
+.selengkapnya-link:active {
+  color: #003f3a; /* warna saat ditekan */
+}
+
+.footer {
+    background-color: #484848;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+    width: 141,10px;
+    margin-left: -150px
+}

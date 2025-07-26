@@ -1,0 +1,31 @@
+/* Navbar */
+.navbar-custom {
+  background-color: #005F57;
+  padding: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    font-size: 15px; /* Atur ukuran font sesuai kebutuhan */
+}
+
+.nav-link {
+  color: white !important;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important; /* kuning saat hover */
+  text-decoration: underline;
+}
+
+.footer {
+    background-color: #353535;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+    width: 1269px;
+    margin-left: -115px;    
+}
